@@ -1,10 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import Blogs from "../pages/blogs";
 import Blog from "../pages/blog";
 import Update from "../pages/blogUpdate";
 import Create from "../pages/blogCreat";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",          // Home page → show all blogs
     element: <Blogs />
