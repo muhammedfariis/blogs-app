@@ -1,0 +1,62 @@
+.blog_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+    width: 100vw;
+    flex-direction: column;
+    background: linear-gradient(134deg , rgb(49, 37, 37) ,blue);
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    height: 5vh;
+    width: 25vw;
+    border: 3px rgb(28, 28, 27) solid;
+    border-radius: 10px;
+    outline: 0px;
+    background: linear-gradient(110deg,rgb(20, 21, 20),orange,black);
+    color: white;
+    padding-right: 10px;
+}
+.updatebutton{
+    height: 5vh;
+    width: 10vw;
+    background-color: red;
+    border: 3px rgb(28, 29, 27) solid;
+    border-radius: 10px;
+    outline: 0px;
+    color: white;
+}
+.formses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;
+     border: 3px rgb(28, 29, 27) solid;
+    border-radius: 10px;
+    background-color: rgb(21, 7, 5);
+    color: whitesmoke;
+    text-align: center;
+}
+.viewer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;
+     border: 3px rgb(28, 29, 27) solid;
+    border-radius: 10px;
+    background: linear-gradient(100deg , rgb(50, 5, 5) , rgb(197, 197, 214) , rgb(71, 5, 5));
+    color: rgb(12, 10, 10);
+    text-align: center;
+    gap: 10px;
+}
